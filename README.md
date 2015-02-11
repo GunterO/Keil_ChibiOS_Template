@@ -2,7 +2,7 @@
 
 ChibiOS + Keil µVision
 
-Simple template (1 blinking LED's) to use ChibiOS with Keil µVision v4 / v5 and a STM32F429I-Discovery board.
+Simple template (2 blinking LED's) to use ChibiOS with Keil µVision v4 / v5 and a STM32F429I-Discovery board.
 
 Some changes were made to the ChibiOS source files to make it compile in µVision:
 
