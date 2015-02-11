@@ -20,8 +20,8 @@ conf\chconf.h
 This because the missing `Image$$RW_IRAM1$$ZI$$Limit` and `Image$$RW_IRAM2$$Base` definitions in the latest µVision compilers.
 Feel free to change this value, but don't set it to 0 because automatic/full RAM size management is not working for now. 
 
-os\hal\platforms\STM32\OTGv1
-----------------------------
+os\hal\platforms\STM32\OTGv1\usb_lld.c
+--------------------------------------
 Commented out these lines ad the end of ´usb_lld_pump()´ to get rid of a "unreachable" compiler warning:
 ```c++
 chSysUnlock();
